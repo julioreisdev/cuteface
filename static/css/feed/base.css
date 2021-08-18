@@ -1,0 +1,23 @@
+:root {
+    --fonte-logo: 'Josefin Sans', sans-serif;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+    --branco:aliceblue;
+}
+
+
+body {
+    font-family: var(--fonte-ubuntu);
+    background-color: #fdfdfd;
+
+    padding-top: 100px;
+}
+
+.img-fundo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}

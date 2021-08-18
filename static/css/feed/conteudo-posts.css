@@ -1,0 +1,66 @@
+.feed-conteudo-posts {
+    width: 70vw;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+}
+
+.feed-conteudo-posts__usuario {
+    display: flex;
+    align-items: center;
+
+    padding: 0.5rem;
+}
+
+.feed-conteudo-posts__usuario--foto {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.feed-conteudo-posts__foto--img {
+    width: 50vw;
+}
+
+.feed-conteudo-posts__descricao {
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 0.5rem;
+}
+
+.feed-conteudo-posts__descricao--text {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feed-conteudo-posts__caixa-interacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed-conteudo-posts__interacao--icone-interacao {
+    width: 30px;
+    height: 30px;
+}
+
+.feed-conteudo-posts__caixa-interacao__icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed-conteudo-posts__interacao-foto--icones {
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+}
+
+.feed-conteudo-posts__interacao--icone-interacao.curtir {
+    background-image: url("../../img/curtida.png");
+}
+
+.feed-conteudo-posts__interacao--icone-interacao.comentar {
+    background-image: url("../../img/comentar.png");
+}
+
+.feed-conteudo-posts__interacao--icone-interacao.compartilhar {
+    background-image: url("../../img/compartilhar.png");
+}

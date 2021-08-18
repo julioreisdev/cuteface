@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40vw;
+    margin: 4rem auto 0 auto;
+}
+
+.img-logo {
+    width: 35px;
+}
+
+.cabecalho:hover {
+    background-color: #00000009;
+}
+
+.cabecalho__titulo {
+    color: var(--branco);
+
+    font-size: 2rem;
+    font-family: var(--fonte-logo);
+    text-transform: lowercase;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .cabecalho {
+        width: 100%;
+        margin: 2rem auto 0 auto;
+    }
+}

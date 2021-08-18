@@ -1,0 +1,85 @@
+.cadastro__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 25vw;
+    margin: 2rem auto;
+
+    padding: 1rem 0;
+
+    background-color: var(--branco);
+
+    border-radius: 6px;
+}
+
+.cadastro__titulo {
+    margin: 0 0 3rem 0;
+    font-size: 1.75rem;
+    color: var(--bg-color);
+    font-family: var(--fonte-ubuntu);
+}
+
+.cadastro__form--titulo {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.1rem;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--fonte-ubuntu)
+}
+
+.cadastro__form--campo {
+    width: 20vw;
+    margin: 0.5rem 0 1rem 0;
+
+    padding: 0.4rem 0;
+
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+}
+
+.cadastro__form--submit {
+    background-color: seagreen;
+
+    color: var(--branco);
+    font-weight: bold;
+    font-family: var(--fonte-ubuntu);
+
+    border: none;
+    border-radius: 2px;
+
+    padding: 0.2rem 0.5rem;
+}
+
+.cadastro__form--campo, .cadastro__form--submit:hover {
+    cursor: pointer;
+}
+
+.cadastro__form--submit:hover {
+    opacity: 0.9;
+}
+
+.cadastro__link-cadastro {
+    margin: 3rem 0 0 0;
+
+    text-decoration: none;
+    font-family: var(--fonte-ubuntu);
+    color: var(--bg-color);
+}
+
+.cadastro__link-cadastro:hover {
+    text-decoration: underline;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .cadastro__form {
+        width: 90vw;
+    }
+
+    .cadastro__form--campo {
+        width: 60vw;
+    }
+}

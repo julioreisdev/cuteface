@@ -1,0 +1,123 @@
+header {
+    background-color: var(--branco);
+    box-shadow: 0 0.1px 2px rgb(173, 172, 172);
+
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+}
+
+.feed-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+}
+
+.feed-cabecalho__logo {
+    display: flex;
+    align-items: center;
+}
+
+.feed-cabecalho__logo--titulo {
+    text-transform: lowercase;
+    font-size: 2rem;
+    font-family: var(--fonte-logo);
+    color: teal;
+}
+
+.feed-cabecalho__logo--img-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.feed-cabecalho__icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.feed-cabecalho__icones--lista {
+    display: flex;
+
+    width: 18vw;
+
+    justify-content: space-between;
+}
+
+.feed-cabecalho__icones--lista--item div {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.feed-cabecalho__icones--lista--item.lupa div {
+    background-image: url("../../img/lupa.png");
+}
+
+.feed-cabecalho__icones--lista--item.mensagem div {
+    background-image: url("../../img/mensagem.png");
+}
+
+.feed-cabecalho__icones--lista--item.criar div {
+    background-image: url("../../img/criar.png");
+}
+
+.feed-cabecalho__icones--lista--item.notificacoes div {
+    background-image: url("../../img/notificacoes.png");
+}
+
+.feed-cabecalho__link-perfil-foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../../img/user.png");
+}
+
+@media (min-width:0px) and (max-width:1024px) {
+    .feed-cabecalho__icones {
+        width: 30vw;
+    }
+
+    .feed-cabecalho__icones--lista {
+        width: 20vw;
+    }
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .feed-cabecalho {
+        padding: 0.3px 0;
+    }
+
+    .feed-cabecalho__logo--titulo {
+        display: none;
+    }
+
+    .feed-cabecalho__icones {
+        width: 50vw;
+    }
+
+    .feed-cabecalho__icones--lista {
+        width: 30vw;
+    }
+
+    .feed-cabecalho__link-perfil-foto {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width:0px) and (max-width:480px) {
+    .feed-cabecalho__icones {
+        width: 70vw;
+    }
+
+    .feed-cabecalho__icones--lista {
+        width: 50vw;
+    }
+}

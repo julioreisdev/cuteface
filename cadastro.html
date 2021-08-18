@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>CuteFace - Cadastro</title>
+
+        <link rel="stylesheet" href="./static/css/reset.css">
+
+        <link rel="shortcut icon" href="static/img/logo.jpg" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="static/css/base.css">
+        <link rel="stylesheet" href="static/css/cabecalho.css">
+        <link rel="stylesheet" href="static/css/cadastro/cadastro.css">
+    </head>
+    <body>
+        <header>
+            <section class="caixa-cabecalho">
+                <section class="cabecalho">
+                    <h1 class="cabecalho__titulo">CuteFace</h1>
+                    <img class="img-logo" src="./static/img/logo.jpg">
+                </section>
+            </section>
+        </header>
+        <main>
+            <section class="cadastro">
+                <form class="cadastro__form">
+                    <h2 class="cadastro__titulo">Cadastro</h2>
+
+                    <label class="cadastro__form--titulo">Seu nome<input type="text" class="cadastro__form--campo" placeholder="Digite seu nome"></label>
+                    <label class="cadastro__form--titulo">Nome do seu pet<input type="text" class="cadastro__form--campo" placeholder="Digite o nome de seu pet"></label>
+
+                    <label class="cadastro__form--titulo">Usuário<input type="text" class="cadastro__form--campo" required placeholder="Crie seu nome de usuário"></label>
+                    <label class="cadastro__form--titulo">Senha<input id="senha-cadastro" type="password" class="cadastro__form--campo" required placeholder="Crie sua senha" ></label>
+                    <label class="cadastro__form--titulo">Confirme sua senha<input id="senha-confirma-cadastro" type="password" class="cadastro__form--campo" required placeholder="Digite sua senha novamente" ></label>
+
+                    <input id="cadastro" class="cadastro__form--submit" type="submit" value="Cadastrar">
+
+                    <a href="index.html" class="cadastro__link-cadastro">Login</a>
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>

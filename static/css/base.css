@@ -1,0 +1,10 @@
+:root {
+    --bg-color:teal;
+    --fonte-logo: 'Josefin Sans', sans-serif;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+    --branco:aliceblue;
+}
+
+body {
+    background-color: var(--bg-color);
+}
