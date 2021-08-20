@@ -1,7 +1,10 @@
 .feed-conteudo-posts {
     width: 70vw;
     margin: 0 auto;
-    border: 1px solid gainsboro;
+    padding: 1rem;
+
+    border: 1px solid teal;
+    border-radius: 5px;
 }
 
 .feed-conteudo-posts__usuario {
@@ -63,4 +66,17 @@
 
 .feed-conteudo-posts__interacao--icone-interacao.compartilhar {
     background-image: url("../../img/compartilhar.png");
+}
+
+.feed-conteudo-posts__interacao-foto-comentario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.feed-conteudo-posts__interacao-foto-comentario-campo {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
 }
