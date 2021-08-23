@@ -71,6 +71,7 @@
 .feed-conteudo-posts__interacao-foto-comentario {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     margin-top: 1rem;
 }
@@ -79,4 +80,39 @@
     width: 100%;
     margin-bottom: 0.5rem;
     padding: 0.5rem 0;
+}
+
+.feed-conteudo-posts__interacao-foto-comentario-campo-submit {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.1rem 0;
+}
+
+@media (min-width:0px) and (max-width:1024px) {
+    .feed-conteudo-posts {
+        width: 100vw;
+        padding: 0;
+        border: none;
+        border-top: 1px solid teal;
+        border-bottom: 1px solid teal;
+        border-radius: 0;
+    }
+
+   .feed-conteudo-posts__caixa-interacao {
+       display: block;
+   }
+
+   .feed-conteudo-posts__foto--img {
+       width: 100vw;
+   }
+
+   .feed-conteudo-posts__interacao-foto--icones {
+       width: 40vw;
+   }
+
+   .feed-conteudo-posts__interacao-foto-comentario-campo, .feed-conteudo-posts__interacao-foto-comentario-campo-submit {
+       width: 60%;
+       margin: 0 auto;
+       margin-bottom: 0.5rem;
+   }
 }

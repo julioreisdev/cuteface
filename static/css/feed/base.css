@@ -21,3 +21,9 @@ body {
 a {
     text-decoration: none;
 }
+
+@media (min-width:0px) and (max-width:1024px) {
+    body {
+        padding-top: 70px;
+    }
+}
