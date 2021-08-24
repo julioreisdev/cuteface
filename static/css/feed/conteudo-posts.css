@@ -2,7 +2,7 @@
     width: 70vw;
     margin: 0 auto;
     padding: 1rem;
-
+    margin-bottom: 2rem;
     border: 1px solid teal;
     border-radius: 5px;
 }
@@ -32,6 +32,8 @@
 .feed-conteudo-posts__descricao--text {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+    line-height: 1.25rem;
+    text-align: center;
 }
 
 .feed-conteudo-posts__caixa-interacao {
