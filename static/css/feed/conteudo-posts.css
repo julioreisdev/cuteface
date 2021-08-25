@@ -25,6 +25,7 @@
 }
 
 .feed-conteudo-posts__descricao {
+    width: 15vw;
     border-bottom: 1px solid gainsboro;
     margin-bottom: 0.5rem;
 }
@@ -117,4 +118,8 @@
        margin: 0 auto;
        margin-bottom: 0.5rem;
    }
+
+   .feed-conteudo-posts__descricao {
+       width: 100%;
+   } 
 }
